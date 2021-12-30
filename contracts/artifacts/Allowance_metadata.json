@@ -93,28 +93,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "withDrawMoney",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -140,7 +118,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleWallet.sol": "SimpleWallet"
+			"contracts/SimpleWallet.sol": "Allowance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
