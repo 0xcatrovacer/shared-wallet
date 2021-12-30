@@ -21,7 +21,15 @@ contract SimpleWallet is Ownable {
         _;
     }
 
+    function reduceAllowance(address _who, uint _amount) internal {
+        allowance[_who] -= _amount;
+    }
+
     function withDrawMoney(address payable _to, uint _amount) public ownerOrAllowed(_amount) {
+        require(_amount <= address(this).balance, "Not enough funds in Smart Contract");
+        if (!isOwner()) {
+            reduceAllowance(msg.sender, _amount);
+        }
         _to.transfer(_amount);
     }
 
