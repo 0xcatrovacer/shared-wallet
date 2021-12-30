@@ -25,6 +25,43 @@
 				"type": "event"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_who",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addAllowance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -118,11 +155,11 @@
 	},
 	"sources": {
 		"contracts/SimpleWallet.sol": {
-			"keccak256": "0x47568ed70c4b84d46a66ef3e486454b265490397de27c3e0eb7decc4de3acb35",
+			"keccak256": "0x2da1c6a75dbcf779d38eb542fe3168c2934f11a924e2c352528213ebe04a5a71",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cfe5412c9eb4364b1c520e63d5455b7a8cc06148e17f7548ac1d5d379778b77b",
-				"dweb:/ipfs/QmcnyXb1GghkMedwjmu7t9chdLY3DwAYLzJ8v8hPDJWBeW"
+				"bzz-raw://c2e315b39497fa567c3a7503f30701f655e3521e79fa6c4602baee875ebed3bc",
+				"dweb:/ipfs/QmWHagvk3rBe84MoLzH2U6LkQPPTftxsWGiuvGx1Umdygb"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
