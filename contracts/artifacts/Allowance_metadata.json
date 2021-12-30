@@ -164,11 +164,11 @@
 	},
 	"sources": {
 		"contracts/SimpleWallet.sol": {
-			"keccak256": "0x7c5f0c8ae94ff4de5d683ae05fef999b1c894f2dd20bef940d1f309ef3a2c69a",
+			"keccak256": "0xf062ad91d1e67d059852ae3a80fc47952ddfcc76270784b1300ff8448bc76bdb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://827e3b63352d67e995bbabf2459b3e5bc4d44f8b85d6b08dc48210c5b6d8dcb9",
-				"dweb:/ipfs/QmcMqdcj4mtsbfot7qngkTGWdF174cha8trEfARJB1phKu"
+				"bzz-raw://35b6ed67903efebd8e2d0ab32806fcb1670b8fac94cf20af0309a0f27270b184",
+				"dweb:/ipfs/QmPuUMagZBrDH6avQZ7PJKzjENRBz1XFRVxyDjDA3JEXXj"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
