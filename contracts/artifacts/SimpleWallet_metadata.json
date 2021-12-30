@@ -6,8 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
@@ -26,6 +40,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -56,11 +74,11 @@
 	},
 	"sources": {
 		"contracts/SimpleWallet.sol": {
-			"keccak256": "0xe1f484a3890ad8089cf6909d133e58646936dd4942bb2ac532b610752cb964ac",
+			"keccak256": "0xda6e1a8004d7cad08366456a84440f1d266ae82b5c7b35b2adf5f11a58e551b4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://470366efbc5f3eeb167f6faa0c463b3d5a93bd6783ca8a1662e290f507b7ff5e",
-				"dweb:/ipfs/QmfM12nA5aERutvnUQKFPGAq66QzghJebPTdHeBHRjBzcn"
+				"bzz-raw://f873744a847f0a256032d2759a45bd58d7f37b4c70a7bcdcdfe29865f8895d5d",
+				"dweb:/ipfs/QmTZX1tZE9e9izxZ4eX1xrYU3jeMyqWK1uS4mS76GUG6cd"
 			]
 		}
 	},
